@@ -1,0 +1,31 @@
+{
+  "model": {
+    "path": "./bert_model",
+    "name": "textattack/bert-base-uncased-imdb",
+    "max_input_length": 512
+  },
+  "tesseract": {
+    "path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+  },
+  "video_analysis": {
+    "sample_frame_count": 5,
+    "max_frame_samples": 10
+  },
+  "app": {
+    "title": "Fake News Detection System",
+    "tab_titles": {
+      "text": "Text-based Detection",
+      "image": "Image-based Detection",
+      "video": "Video-based Detection"
+    }
+  },
+  "ui": {
+    "success_message": "✅ This news appears to be REAL.",
+    "error_message": "🚨 This news appears to be FAKE.",
+    "warnings": {
+      "no_input_text": "Please enter some text.",
+      "no_text_in_image": "No text detected in image.",
+      "no_text_in_video": "No text found in video"
+    }
+  }
+}

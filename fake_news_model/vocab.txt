@@ -1,0 +1,13 @@
+[PAD]
+[UNK]
+[CLS]
+[SEP]
+[MASK]
+the
+of
+and
+to
+a
+in
+for
+...
